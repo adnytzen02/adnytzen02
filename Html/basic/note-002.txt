@@ -1,0 +1,48 @@
+嵌套的HTML元素
+
+HTML元素可以嵌套，這意味著元素可以包含其他元素，
+所有HTML文黨都由嵌套 HTML元素組成。
+
+<html> 元素是根元素，定義整個 HTML文檔
+一個開始標籤 <html> 和一個結束標籤 </html>
+在 <html> 元素內部有一個 <body> 元素。
+
+
+<body> 元素定義文檔的主體。
+有一個開始標籤 <body> 和一個結束標籤 </body>。
+在 <body> 元素內部還有另外兩個元素： <h1> 和 <p>
+
+<h1> 元素定義標題。
+有一個開始標籤 <h1> 和一個結束標籤 </h1>
+
+<p> 元素定義了一個段落。
+有一個開始標籤 <p> 和一個結束標籤 </p>
+
+嵌套例子 :
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1>My First Heading</h1>
+    <p>My First paragraph</p>
+
+</body>
+</html>
+
+有一些 HTML 忘記了結束標記是能正確顯示
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p>My First Heading
+    <p>My First paragraph
+
+</body>
+</html>
+
+但是，永遠別依賴這個，忘記結束標記會容易出現錯誤。
+
+HTML 標籤不區分大小寫 : <p>、<P>。
+HTML 標準不要求小寫標記，但建議使用 HTML 中使用 小寫。
+

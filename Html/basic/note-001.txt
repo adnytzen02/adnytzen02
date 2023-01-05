@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="zh-Hant">
+<h3>!DOCTYPE</h3>
+<p>
+    !DOCTYPE聲明，幫助瀏覽器正確顯示網頁，
+    只能在頁面頂部出現一次 (在任何 HTML標記之前)。
+</p>
+<h3>HTML標題</h3>
+<p>
+    HTML標題是用 h1 to h6標籤定義的。
+    h1 定義最重要的標題。h6 定義最不重要的標題。
+</p>
+<h4>舉例</h4>
+<h1>最重要的標題</h1>
+<h6>最不重要的標題</h6>
+<h3>HTML段落</h3>
+<p>
+    HTML段落使用 p 標記定義的。
+</p>
+<h3>HTML 屬性</h3>
+<p>
+    HTML鏈接是用 a 標籤定義的。
+<h4>連接到 google 的 link</h4>
+</p>
+<a href="https://www.google.com.tw/?hl=zh_TW">This is a link</a>
+<p>
+    鏈接的目的地在 href 屬性定義。
+</p>
+<h3>HTML圖像</h3>
+<p>
+    HTML圖像是用img標籤定義的。
+    來源文件(src)、替代文本(alt)、width和height作為屬性提供
+</p>
+<img src="來源" alt="替代" width="寬" height="高">
+
+</html> 
